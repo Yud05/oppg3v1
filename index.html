@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oppgave 3</title>
+</head>
+<style>
+ section{
+    display: grid;
+    gap: 0.25rem;
+    grid-template-columns: 2fr 2fr;
+    border: solid black 1px;
+    grid-template-rows: auto;
+    background-color: green
+    }
+    img{
+        width:300px;
+        height:200px;
+    }
+</style>
+<body>
+    
+    <form action="register.html">
+        <input type="text" name="navn"
+         placeholder="hva heter du?" required>
+         <input type="text" name="tid" 
+         placeholder="Hvilket Klokkeslett" required>
+
+         <br>
+        <label>hva ønsker du å drikke til maten</label>
+        <input type="radio" value="brus" name="rbDrikke">
+        <span>Brus</span>
+        <input type="radio" value="saft" name="rbDrikke">
+        <span>saft</span>
+        <input type="radio" value="vann" name="rbDrikke">
+        <span>vann</span>
+        <br>
+        <select name="velgmat" id="">
+        <option value="">Hva ønsker du å spise</option>
+        <option value="pizza">Pizza</option>
+        <option value="taco">Taco</option>
+        <option value="burger">burger</option>
+        <option value="pasta">pasta</option>
+        <option value="pølser">pølse</option>
+        </select>
+        <button>OK</button>
+       
+    </form>
+
+    <img src="pasta.jpeg">
+    <img src="burger.jpeg">
+    <img src="pølse.jpeg">
+    <img src="pizza.jpeg">
+    <img src="taco.jpeg"
+</body>
+
+</html>
